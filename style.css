@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #ececf8;
+    position: relative;
+}
+
+#bg {
+    background-size: cover;
+    background-blend-mode: color-burn;
+    height: 700px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.logo {
+    height: 80px;
+    margin-top: -8px;
+}
+
+.options {
+    color: black;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.option {
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.btn-b {
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+
+.large-text {
+    margin: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-family: "Gasoek One", sans-serif;
+    font-size: 9svh;
+    font-stretch: wider;
+}
+
+.big-text {
+    margin: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    font-family: "Gasoek One", sans-serif;
+    font-size: 6svh;
+    font-stretch: wider;
+}
+
+.deets {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin: 20px;
+    font-size: large;
+}
+
+.big-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: white;
+    border-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+
+.browser-btn {
+    height: 60px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+}
+.pic-with-text {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
+.side-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.side-deets {
+    text-align: left;
+    justify-content: left;
+}
